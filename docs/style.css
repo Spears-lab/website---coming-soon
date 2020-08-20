@@ -89,8 +89,8 @@ body {
 }
 
 .title {
-  font-size: 8rem;
-  font-weight: 800;
+  font-size: 6rem;
+  font-weight: 400;
   position: relative;
   text-transform: uppercase;
   font-family: spartan, sans-serif;
@@ -120,6 +120,13 @@ body {
 .input {
   font-size: 1rem;
   font-family: mont;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
 }
 
 .input::placeholder {
