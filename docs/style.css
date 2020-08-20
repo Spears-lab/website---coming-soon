@@ -42,8 +42,8 @@ body {
   height: 100vh;
   color: white;
   line-height: 1.5;
-  font-family: mont;
   background-color: black;
+  font-family: mont, sans-serif;
 }
 
 .wrapper {
@@ -68,13 +68,13 @@ body {
   margin-inline-start: 0.5rem;
 }
 
-.section {
+.hero-section {
   flex: 1;
   display: flex;
   align-items: center;
 }
 
-.section::after {
+.hero-section::after {
   top: 0;
   right: 0;
   bottom: 0;
@@ -163,7 +163,7 @@ body {
 }
 
 @media (pointer: coarse) {
-  .section::after {
+  .hero-section::after {
     width: 90%;
     height: 90%;
     bottom: 5rem;
